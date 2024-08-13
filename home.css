@@ -1,0 +1,99 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #1b2838; 
+}
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.p3{
+    text-align: center;
+   
+
+}
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-color: #2a475ea3;
+    padding-left: 10%;
+ }
+ .part3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+.p4{
+    height: 150px;
+    width: 200px;
+    border-radius: 30%;
+}
+.part4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+h1, h2, h3 {
+    color: #ffffff; /* لون العناوين */
+    text-align: center;
+}
+
+nav {
+    background-color: #2a475e; /* لون الخلفية للبار العلوي */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav button {
+    background-color: #66c0f4; /* لون الأزرار في البار العلوي */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+div, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.img-grid img {
+    max-width: 45%; /* عرض الصور */
+    height: auto;
+    border-radius: 8px; /* زوايا مستديرة للصورة */
+}
+
+button {
+    background-color: #66c0f4; /* لون الأزرار */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #2a475e; /* لون خلفية الفوتر */
+    color: white;
+    padding: 10px 0;
+   
+    bottom: 0;
+    width: 100%;
+}
+
+
